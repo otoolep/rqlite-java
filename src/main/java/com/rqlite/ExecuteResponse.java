@@ -17,7 +17,6 @@ public class ExecuteResponse extends GenericJson {
         public float time;
     }
 
-    @Key("results")
     public List<Result> results;
 
     @Key
